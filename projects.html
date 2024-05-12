@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects~ UwU</title>
+    <title>My Projects~</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,17 +24,22 @@
 	    <h3>Table of Contents</h3>
 	    <h4>1. Finite Abstract Algebra<span>  (<a href="https://github.com/Crypto-Neko/finite-abstract-algebra" class="algebra-button">Repository Link</a>)</span></h4>
 	    <p>My quest to create a computational algebra system like SageMath on my own. Last post: May 11th, 2024.</p>
-	    <h4>2. Crypto Demonstrations<span>  (<a href="https://github.com/Crypto-Neko/crypto-demo" class="algebra-button">Repository Link</a>)</span></h4>
+	    <h4>2. Crypto Demo<span>  (<a href="https://github.com/Crypto-Neko/crypto-demo" class="algebra-button">Repository Link</a>)</span></h4>
 	    <p>A repository I will use into the near future to experiment with different cryptographic algorithms and my own implementations. This will help me gain experience with cryptography and mathematical programming and it will be an enjoyable project to undertake. Last post: May 12th, 2024.</p>
         </section>
 	<section class="finite-abstract-algebra">
 		<h2>Finite Abstract Algebra<span><a href="https://github.com/Crypto-Neko/finite-abstract-algebra" class="algebra-button">Repository Link</a></span></h2>
 	    <img src="algebra.png" alt="cool algebra picture" class="right-float-proj">
 	    <h3>Initial Post<span class="date">May 11th, 2024</span></h3>
-	    <p>My "Finite Abstract Algebra" project is a Python implementation of every algebraic object I can think of--at least, that's what it's <i>going</i> to be. Right now I have BinOp and Group objects, but I've been too busy to work on it lately. Maybe once I get the first version of this website up and I install Gentoo on my new laptop...I mean-</p>
-	    <p>My inspiration for this project began has come from two sources: firstly, I wanted to take polymorphism in Python as far as I could and cover all the algebra I know, especially since I have rarely had a practical use for polymorphism in programming and I'd like to experiment with it; secondly, I've already written a full Diffie-Hellman implementation for elliptic curves over finite fields, which I also wrote the code for by myself, but I didn't write a way to implement non-prime fields and this would be one way of doing it. The goal in the end will be to have something akin to SageMath or Magma, which would serve the purpose of education, utility, and ultimately the enjoyment of creating it.</p>
-	    <p>Anyway, that's why I'm doing it: now what is it I'm doing? I started by implementing an associative binary operation, which I've labeled BinOp. Next, I created the class Group that checks from a multiplication table if a group is valid and then initializes the object by calling the __init__ method inherented from BinOp. I'm currently working on a class for finite abelian groups: it's not that hard, but as I said, I'm busy! I'd like to have the user specify the generators of the group as a tuple like $(5, 13, 7)$, which would mean $\mathbb{Z}_5 \times \mathbb{Z}_{13} \times \mathbb{Z}_7 \cong \mathbb{Z}_5 \times \mathbb{Z}_{7} \times \mathbb{Z}_{13}$. The program would first order the tuple as (5, 7, 13) and then cycle through the generators until it reaches the order of the group. Then it would generate a multiplication table and create a Group object with it. Eventually I will build this up to finite fields <strike>and do my algebraic number theory homework with it</strike> and use it for isogeny-based cryptography--at least for fun, though I'll probably use SageMath for the real work. I'll post more about this soon when I have time to work on it again. Until then, check my repo for updates.</p>
+	    <p>nothing here yet</p>
 	</section>
+	<section class="crypto-demo">
+		<h2>Crypto Demo<span><a href="https://github.com/Crypto-Neko/crypto-demo" class="algebra-button">Repository Link</a></span></h2>
+	    <img src="crypto-demo.png" alt="cool crypto lock" class="right-float-proj">
+	    <h3>Initial Post<span class="date">May 12th, 2024</span></h3>
+	    <p></p>
+	</section>
+    </main>
     </main>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
