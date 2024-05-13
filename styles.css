@@ -43,7 +43,7 @@ main {
 .right-float {
 	float: right; 
 	margin-left: 20px;  
-	width: 420px;
+	max-width: 420px;
 	height: auto; 
 }
 
@@ -51,7 +51,7 @@ main {
 	float: right; 
 	margin-left: 20px;
 	margin-top: 45px;
-	width: 420px;
+	max-width: 420px;
 	height: auto; 
 }
 
@@ -60,7 +60,8 @@ main {
 	padding: 20px;
 	border: 1px solid #ddd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	width: 890px;
+	max-width: 890px;
+	width: 100%;
 	margin: 20px 20%;
 	overflow: auto;
 	text-align: justify;
@@ -73,7 +74,8 @@ main {
 	padding: 20px;
 	border: 1px solid #ddd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	width: 890px;
+	max-width: 890px;
+	width: 100%;
 	margin: 20px 20%;
 	overflow: auto;
 	text-align: justify;
@@ -86,7 +88,8 @@ main {
 	padding: 20px;
 	border: 1px solid #ddd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	width: 890px;
+	max-width: 890px;
+	width: 100%;
 	margin: 20px 20%;
 	overflow: auto;
 	text-align: justify;
@@ -99,7 +102,8 @@ main {
 	padding: 20px;
 	border: 1px solid #ddd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	width: 890px;
+	max-width: 890px;
+	width: 100%;
 	margin: 20px 20%;
 	overflow: auto;
 	text-align: justify;
@@ -112,7 +116,8 @@ main {
 	padding: 20px;
 	border: 1px solid #ddd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	width: 890px;
+	max-width: 890px;
+	width: 100%;
 	margin: 20px 20%;
 	overflow: auto;
 	text-align: justify;
@@ -149,4 +154,22 @@ h2 .algebra-button:hover {
 
 p {
 	margin-bottom: 20px;
+}
+
+@media (min-width: 940px) {
+      .intro {
+          width: 890px;
+      }
+      .welcome-to-projects {
+          width: 890px;
+      }
+      .finite-abstract-algebra {
+	  width: 890px;
+      }
+      .crypto-demo {
+	  width: 890px;
+      }
+      .overview {
+	  width: 890px;
+      }
 }
