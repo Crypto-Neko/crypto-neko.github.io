@@ -47,6 +47,13 @@
 	    <p>This page (probably) does not yet exist. When it does, it will link to pages dedicated to various anime characters, each one with the purpose of expanding my knowledge of HTML/CSS and JavaScript. When I was in high school I would experiment with webdev using a Whonix VM pair on my personal machine, on which I would host sites dedicated to anime character. Here I am doing something similar but more advanced, with the same goal as before.
 	    <p>This is all I have planned for now, but as the site develops, I will probably add one or two more pages for different topics, including my research in mathematical cryptography as it develops. Contact me via Discord if you have anything to say about the site or want to contact me for any reason.</p>
 	</section>
+	<button id="back-to-top">Back to Top</button>
+	<script>
+		const backButton = document.getElementById("back-to-top");
+		backButton.addEventListener("click", function() {
+			window.scrollTo({ top: 0, behavior: "smooth" });
+			});
+	</script>
     </main>
 </body>
 </html>

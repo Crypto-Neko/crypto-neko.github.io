@@ -45,7 +45,13 @@
 	    <p>As of writing this post, I have implemented two ciphers so far, including test code for them. The first is the shift cipher, which traditionally shifts every letter of a message by some number of letters (i.e. by an integer mod 26, if the letters are being represented as integers mod 26). My implementation is more sophisticated, including support for any of the 128 standard ASCII characters, shifting each one of them by an integer mod 128. The substitution cipher is similar but more general: it assigns each character to another by an injective map, which is how the final message will be encrypted and decrypted. My code uses a Python dict as a rule of how to perform the substitution and checks to make sure it is injective. Once again I use ASCII codes instead of letters to accept more characters as input and make the cryptosystem more secure.</p>
 	    <p>These two basic cryptosystems didn't take me long to implement and the rest should go pretty quickly for me as well. I might have all of the ciphers done by the time I update this page again. After finishing this demo I will likely continue to work on my "Finite Abstract Algebra" project, which I can then eventually use for cryptographic purposes, as it must be finished before I can do anything with elliptic curves over non-prime fields.</p>
 	</section>
-    </main>
+	<button id="back-to-top">Back to Top</button>
+	<script>
+		const backButton = document.getElementById("back-to-top");
+		backButton.addEventListener("click", function() {
+			window.scrollTo({ top: 0, behavior: "smooth" });
+			});
+	</script>
     </main>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
